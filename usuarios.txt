@@ -1,0 +1,4 @@
+Alcides,5000.0
+Jamhour,10000.0
+Andrey,100.0
+Antonio,0.0
