@@ -10,7 +10,7 @@ public class DadosUsuario {
         try (BufferedReader buffer = new BufferedReader(new FileReader(arquivo))) {
             String linha;
             while ((linha = buffer.readLine()) != null) {
-                String[] val = linha.split(","); // separa por virgule
+                String[] val = linha.split(","); // separa por virgula
                 String nome = val[0].trim(); //corta os espacoes
                 double saldo = Double.parseDouble(val[1].trim());
                 UsuarioBanco usuario = new UsuarioBanco(nome, saldo);

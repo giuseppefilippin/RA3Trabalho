@@ -8,7 +8,6 @@ public class Banco {
         usuarios = infoUsuarios.carregarUsuarios(
             "usuarios.txt");
 
-
         BancoInterface banco = new BancoInterface();
         javax.swing.SwingUtilities.invokeLater(new Runnable() {
             public void run() {
