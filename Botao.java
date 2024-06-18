@@ -1,5 +1,6 @@
 import javax.swing.*;
 
 public interface Botao {
-    abstract JButton criarBotao(UsuarioBanco usuario, String texto);
+    JButton criarBotao(UsuarioBanco usuario, String texto);
+    JButton criarAdicionarUsuarioBotao(String texto);
 }
